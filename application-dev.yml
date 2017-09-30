@@ -1,1 +1,12 @@
 common.test.property: "dev property value"
+
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform:  "postgres"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://192.168.99.100:5432/microDB"
+spring.datasource.username: "postgres"
+spring.datasource.password: "{cipher}AQB4UIwOAigSi2yyDz1kVa1VY6k8Bg9ihAAhGw3Z4wb548UHH71fNCnnmiB6r2hsY1SmPQ4/kWYLLGTFbkZP2nhXFLMgj49zjBjjiBc60xygYJlPwVgVjEP7XgvVb878ZvQwNXS/H/pnCUsLLpr8TaQCHrQUu/JZt0Ul2yN5g0yD5JJnul6wdSUgO1zk0Mkw2H8T8Sx6VN+DA3IqMozCMs+TEAw8JhwNLNDaS8JP0oQdzddFC69l6hjha0qpjGG+NSMYZl8J+sNu7nL1FDttF2VjIJcIeNc5ZTNMz86GbEGh8xMhZo1umtR3UiQmiRPntpGriUgI7bTVVHd1B1jGehmTximIulHcV+JdEYkgtM/ost9zZlg0r+kIQRVGBK2aGpg="
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect" 
